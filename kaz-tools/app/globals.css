@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background: #022135;
+    color: white;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+p:hover {
+    cursor: default;
+}
+
+/* Nav */
+.nav button:hover, .search_suggestions button:hover, footer button:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.nav button {
+    font-size: large;
+    padding: 0.2rem 0rem;
+}
+
+/* Footer */
+footer-elements div, ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #001c28;   
+}
+
+footer button {
+    font-size: small;
+}
+
+/* Section */
+.toolsContainer article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Extra */
+::selection {
+    background-color: black;
+    color: white;
+}
+
